@@ -1,9 +1,14 @@
-# Python program to find the Strongest Neighbour
-# Input: 1 2 2 3 4 5
-# Output: 2 2 3 4 5
-list=[1,2,2,3,4,5]
-list2=[]
-for i in range(len(list)-1):
-    if list[i]<=list[i+1]:
-        list2.append(list[i+1])
-print(list2)
+# Python program to count Even and Odd numbers in a List
+# Input: list1 = [2, 7, 5, 64, 14]
+# Output: Even = 3, odd = 2
+list1 = [2, 7, 5, 64, 14]
+even_count = 0
+odd_count = 0
+for i in list1:
+    if i%2==0:
+        even_count += 1
+        
+    else:
+        odd_count += 1
+print(even_count)
+print(odd_count)     

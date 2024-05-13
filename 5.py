@@ -1,5 +1,8 @@
-list=[1,2,3]
-m=0
-for i in list:
-    m=m+i
-print(m)
+# "*" left triangle pattern:
+n=int(input())
+for i in range(n):
+    for j in range(i+1):
+        print("*", end=" ")
+    print()
+
+

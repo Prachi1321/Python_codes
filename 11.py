@@ -1,7 +1,8 @@
-# Input : tuples = [(), (‘ram’,’15’,’8′), (), (‘laxman’, ‘sita’), (‘krishna’, ‘akbar’, ’45’), (”,”),()]
-# Output : [(‘ram’, ’15’, ‘8’), (‘laxman’, ‘sita’), (‘krishna’, ‘akbar’, ’45’), (”, ”)]
-tuples = [(), ('0', '00', '000'), ('birbal', "" , '45'), (""), (),  (","),()]
-for i in tuples:
-    if i==():
-        tuples.remove(i)
-print(tuples)
+n=int(input())
+for i in range(n+1):
+    p=1
+    for j in range(i):
+        print(p, end=" ")
+        p+=1
+    
+    print()

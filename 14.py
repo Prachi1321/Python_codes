@@ -1,13 +1,4 @@
-# Python – List product excluding duplicates
-test_list = [1, 3, 5, 6, 3, 5, 6, 1]
-res=[]
-mul=1
-for i in range(len(test_list)):
-    if test_list.count(i)>1:
-        res.append(i)
-for j in res:
-    mul=mul*j
-print(mul)
-    
-
-
+# Python program to find smallest number in a list
+a=[9,3,4,1,7]
+a.sort()
+print(a[0])
